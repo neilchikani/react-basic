@@ -7,7 +7,7 @@ const App = () => (
 
     <div>
         <h2>User List</h2>
-
+        <UserList/>
         <hr />
 
 
