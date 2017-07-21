@@ -1,17 +1,4 @@
 import React from 'react';
-class Content extends React.Component {
-  render() {
-    return (
-      <ul>
-        {
-          this.props.data.map(function(name, index){
-            return <li key={ index }>{name.name}</li>;
-          })
-        }
-      </ul>
-    );
-  }
-}
 
 class InputComponent extends React.Component{
   constructor(props) {

@@ -1,4 +1,4 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MyComponent from '../src/component/MyComponent.jsx';
-ReactDOM.render(<MyComponent/>, document.getElementById('app'));
+import Route from '../src'
+ReactDOM.render(<Route/>, document.getElementById('app'));

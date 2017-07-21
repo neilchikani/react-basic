@@ -1,0 +1,83 @@
+@import '../App/Colors.less';
+@import '../App/Common.less';
+
+.landing {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+
+  display: flex;
+  flex-direction: column;
+
+  .content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    .logo {
+      width: 141px;
+      height: 143px;
+    }
+    .slogan {
+      margin-top: 44px;
+      font-size: 24px;
+      color: @light_blue_1;
+      max-width: 400px;
+      font-weight: bold;
+    }
+    .intro {
+      margin-top: 23px;
+      font-size: 22px;
+      max-width: 300px;
+      text-align: center;
+      color: white;
+    }
+    .signup-button {
+      margin-top: 23px;
+      font-size: 18px;
+      border-color: white;
+      border-style: solid;
+      border-width: 2px;
+      background-color: transparent;
+      cursor: pointer;
+      width: 250px;
+      height: 40px;
+      min-height: 40px;
+    }
+    .login-button {
+      margin-top: 11px;
+      font-size: 18px;
+      width: 250px;
+      height: 40px;
+      min-height: 40px;
+    }
+    .steps {
+      margin-top: 76px;
+    }
+  }
+  .footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    .copyright {
+      color: white;
+    }
+    .separator {
+      margin-left: 5px;
+
+    }
+    .privacy-policy {
+      margin-left: 5px;
+      color: white;
+    }
+    .help-and-support {
+      margin-left: 5px;
+      color: white;
+    }
+  }
+}
